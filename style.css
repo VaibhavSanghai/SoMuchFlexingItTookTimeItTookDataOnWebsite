@@ -1,0 +1,99 @@
+* {
+    font-family: Papyrus, fantasy; 
+} 
+
+.grid {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid img {
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black; 
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: blanchedalmond;
+
+    width: 310px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body {
+    background-color: white;
+}
+
+.bodyimg {
+    background-color: black;
+}
+
+.bodyimg p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background-color: black;
+    color: white;
+
+    font-family: Papyrus, fantasy;
+    font-size: 35px; 
+    
+    margin: 25px; 
+    padding: 15px;
+}
+
+.bodyimg h3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: black;
+    color: white; 
+
+    font-family: Papyrus, fantasy;
+    font-weight: 15px;
+
+    margin: 20px; 
+    padding: 20px; 
+}
+
+.header {
+    background-color: red; 
+}
+
+.header p {
+    font-family: Papyrus, fantasy;
+    font-weight: 15px;
+
+    margin: 10px; 
+    padding: 0;
+}
+
+.header a {
+    font-family: Papyrus, cursive;
+    font-weight: 15px;
+
+    margin: 10px; 
+    padding: 0;
+}
